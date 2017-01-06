@@ -1,0 +1,50 @@
+{
+  "name": "react-mobx-translatable-minified",
+  "version": "1.3.2",
+  "description": "Make React components translatable using MobX",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test --compilers js:babel-register",
+    "precommit": "npm test",
+    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisknu/react-mobx-translatable-minified.git"
+  },
+  "keywords": [
+    "react",
+    "i18n",
+    "mobx"
+  ],
+  "author": "WorkHere <workhere@workhere.component>",
+  "contributors": [
+    {
+      "name": "Chris Knuteson",
+      "email": "chris.knuteson@workhere.com"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/chrisknu/react-mobx-translatable-minified#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.11.6",
+    "chai": "^3.5.0",
+    "enzyme": "^2.4.1",
+    "husky": "^0.11.6",
+    "jsdom": "^9.4.1",
+    "mobx": "^2.4.1",
+    "mocha": "^3.0.1",
+    "react-addons-test-utils": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "dependencies": {
+    "i18n-harmony": "^1.4.0",
+    "mobx-react": "^4.0.0",
+    "react": "^15.3.0"
+  }
+}
