@@ -1,6 +1,7 @@
 var React = require('react');
 var mobxReact = require('mobx-react');
 var I18n = require('i18n-harmony');
+var PropTypes = require('prop-types');
 
 function defaultInjectFn(stores) {
   return {
@@ -27,10 +28,10 @@ function translatable(Component, connect) {
 
   /* istanbul ignore if */
   if (Component.propTypes) {
-    Component.propTypes.i18n = React.PropTypes.object;
+    Component.propTypes.i18n = PropTypes.object;
   } else {
     Component.propTypes = {
-      i18n: React.PropTypes.object
+      i18n: PropTypes.object
     };
   }
 
