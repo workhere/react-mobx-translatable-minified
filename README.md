@@ -6,7 +6,7 @@ Note: This plugin depends on ``mobx-react`` features that are currently marked a
 
 [![Build Status](https://travis-ci.org/workhere/react-mobx-translatable-minified.svg?branch=master)](https://travis-ci.org/workhere/react-mobx-translatable-minified)
 [![Dependency Status](https://david-dm.org/workhere/react-mobx-translatable-minified.svg)](https://david-dm.org/workhere/react-mobx-translatable-minified)
-[![devDependency Status](https://david-dm.org/workhere/react-mobx-translatable-minified/dev-status.svg)](https://david-dm.org/workhere/react-mobx-translatable-minified#info=devDependencies)
+[![devDependency Status](https://david-dm.org/workhere/react-mobx-translatable-minified/dev-status.svg)](https://david-dm.org/workhere/react-mobx-translatable-minified?type=dev)
 
 ## Installation
 
