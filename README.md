@@ -1,4 +1,4 @@
-# react-mobx-translatable
+# react-mobx-translatable-minified
 
 Make React components translatable using MobX. Can be used both on the server (SSR) and in the browser.
 
